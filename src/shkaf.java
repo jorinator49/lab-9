@@ -1,12 +1,12 @@
-public class Office extends Facility{
+public class shkaf extends Facility{
     private double Area_o;
 
-    Office() {
+    shkaf() {
         super();
         Area_o = 0;
     }
 
-    Office(String fType, double AreaValue) {
+    shkaf(String fType, double AreaValue) {
         super(fType);
         Area_o = AreaValue;
     }
@@ -21,7 +21,7 @@ public class Office extends Facility{
 
     @Override
     public String toString() {
-        return "Office{" +
+        return "shkaf{" +
                 "Area_o=" + Area_o +
                 "Type=" + getType() +
                 '}';

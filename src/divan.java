@@ -1,12 +1,12 @@
-public class Flat extends Facility{
+public class divan extends Facility{
     private double Area;
 
-    Flat() {
+    divan() {
         super();
         Area = 0;
     }
 
-    Flat(String fType, double AreaValue) {
+    divan(String fType, double AreaValue) {
         super(fType);
         Area = AreaValue;
     }
@@ -21,7 +21,7 @@ public class Flat extends Facility{
 
     @Override
     public String toString() {
-        return "Office{" +
+        return "shkaf{" +
                 "Area_o=" + Area +
                 "Type=" + getType() +
                 '}';
